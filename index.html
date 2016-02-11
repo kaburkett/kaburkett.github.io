@@ -26,6 +26,17 @@
 			background-image { opacity: 0.2; }
 		}
 	</style>
+	<!--Google Analytics Script-->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', 'UA-72870914-3', 'auto');
+	  ga('send', 'pageview');
+	
+	</script>
 </head>	
     
 <body>
@@ -48,7 +59,7 @@
 <br>
 	
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-<a href="https://drive.google.com/file/d/0B6H_VMqfmASickFOZ204RS1YNWM/view?usp=sharing" class="btn btn-default btn-lg">View Resume</a>
+<a href="https://drive.google.com/file/d/0B6H_VMqfmASickFOZ204RS1YNWM/view?usp=sharing" class="btn btn-default btn-lg" onclick="ga('send', 'event', 'Button', 'Click', 'View Resume');">View Resume</a>
 
 	
 	</div>
