@@ -85,6 +85,15 @@ h6 {
     }
 }
 
+.navbar-brand {
+	padding: 5px 5px;
+}
+
+.navbar-brand span {
+	display: inline-block;
+	color: #777;
+}
+
 .network-name {
     text-transform: uppercase;
     font-size: 14px;

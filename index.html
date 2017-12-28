@@ -31,7 +31,35 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+	<style>
+		div.circle-avatar{
+			/* make it responsive */
+			max-width: 100%;
+			width:100%;
+			height:auto;
+			display:block;
+			/* div height to be the same as width*/
+			padding-top:100%;
+			
+			/* make it a cirkle */
+			border-radius:50%;
+			
+			/* Centering on image`s center*/
+			background-position-y: center;
+			background-position-x: center;
+			background-repeat: no-repeat;
+			
+			/* it makes the clue thing, takes smaller dimention to fill div */
+			background-size: cover;
 
+			/* it is optional, for making this div centered in parent*/
+			margin: 0 auto;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			}
+	</style>
 </head>
 
 <body>
@@ -56,7 +84,12 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand topnav" href="#">Kyle Burkett</a>
+				<div class="navbar-brand topnav">
+					<a href="https://www.linkedin.com/in/kyleaaronburkett">
+						<img class="navbar-brand topnav img-responsive img-circle" src="img/profile.jpg" />
+						<span>Kyle<br>Burkett</span>
+					</a>
+				</div>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
